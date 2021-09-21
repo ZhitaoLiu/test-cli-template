@@ -1,0 +1,12 @@
+{
+  "cleanUrls": false,
+  "public": "dist",
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/webs/static/css/:cssFilename", "destination": "/static/css/:cssFilename" },
+    { "source": "/webs/static/js/:jsFilename", "destination": "/static/js/:jsFilename" },
+    { "source": "/webs/static/img/:imageFilename", "destination": "/static/img/:imageFilename" },
+    { "source": "/webs/**", "destination": "/index.html" },
+    { "source": "/webs/**/**", "destination": "/index.html" }
+  ]
+}

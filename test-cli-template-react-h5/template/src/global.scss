@@ -1,0 +1,14 @@
+// 修改 zarm 库主题色
+:root {
+  --theme-primary: #cc1b23;
+  --theme-primary-light: #cc1b23;
+  --theme-primary-dark: rgba(204, 27, 35, 0.9);
+  --theme-primary-darker: rgba(204, 27, 35, 0.9);
+  --theme-success: #cc1b23;
+  --theme-success-light: #cc1b23;
+}
+
+// 定义全局函数
+@function vw($width) {
+  @return $width / 7.5 + vw;
+}
