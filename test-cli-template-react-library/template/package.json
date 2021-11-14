@@ -20,6 +20,7 @@
     "react",
     "UI"
   ],
+  "files": ["dist"],
   "author": "damon.liu <651615266@qq.com>",
   "license": "ISC",
   "peerDependencies": {
